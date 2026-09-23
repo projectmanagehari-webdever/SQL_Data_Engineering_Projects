@@ -1,1 +1,4 @@
-SELECT 42 AS answer_key_num;
+SELECT
+  job_title_short
+FROM
+  job_postings_fact;
